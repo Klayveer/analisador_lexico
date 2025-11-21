@@ -57,7 +57,7 @@ python analisador.py
 
 2. Digite o nome do arquivo quando solicitado:
 ```
-Digite o nome do arquivo .c para analisar: a.c
+Digite o nome do arquivo .c para analisar: codigo_teste.c
 ```
 
 3. O programa irá exibir:
@@ -96,9 +96,9 @@ ID    | Símbolo
 
 ```
 ├── analisador.py      # Analisador léxico principal
-├── a.c                # Arquivo de teste 1
-├── a2.c               # Arquivo de teste 2
-├── cod2.py            # Testes unitários
+├── codigo_teste.c     # Arquivo de teste 1
+├── codigo_teste2.c    # Arquivo de teste 2
+├── .gitignore         # Arquivos ignorados pelo Git
 └── readme.md          # Este arquivo
 ```
 
