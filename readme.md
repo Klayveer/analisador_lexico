@@ -102,45 +102,6 @@ ID    | Símbolo
 └── readme.md          # Este arquivo
 ```
 
-## 🧪 Testes
-
-O projeto inclui uma suíte completa de testes de esforço (`cod2.py`) que valida:
-
-### Execução dos Testes
-```bash
-python cod2.py
-```
-
-### Casos de Teste Cobertos
-
-1. **Código Simples**: Validação básica de tokens e símbolos
-2. **Múltiplos Identificadores**: IDs únicos e sequenciais
-3. **Identificadores Repetidos**: Mesmo ID para mesma variável
-4. **Números de Linha**: Rastreamento correto de linhas
-5. **Tipos de Tokens Diversos**: Operadores, keywords, literais
-6. **Comentários**: Ignorados corretamente
-7. **Erros Léxicos**: Detecção de caracteres inválidos
-8. **Código Complexo**: Structs, ponteiros, funções
-9. **Operadores Diversos**: Todos os tipos de operadores
-10. **Strings e Números**: Diferentes formatos
-11. **Pré-processador**: Diretivas ignoradas
-12. **Integridade de IDs**: Referências válidas
-13. **Keywords vs Identificadores**: Diferenciação correta
-
-### Exemplo de Execução de Testes
-```bash
-$ python cod2.py
-test_codigo_complexo_struct (__main__.TestAnalisadorLexicoStress) ... ok
-test_codigo_simples_basico (__main__.TestAnalisadorLexicoStress) ... ok
-test_comentarios_ignorados (__main__.TestAnalisadorLexicoStress) ... ok
-test_erro_lexico_caractere_invalido (__main__.TestAnalisadorLexicoStress) ... ok
-...
-----------------------------------------------------------------------
-Ran 17 tests in 0.045s
-
-OK
-```
-
 ## 🔍 Arquitetura do Analisador
 
 ### 1. Especificação de Tokens
